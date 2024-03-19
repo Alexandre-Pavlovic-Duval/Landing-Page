@@ -11,6 +11,7 @@ body {
     padding: 8px;
     background-color: #1F2937;
     flex-shrink: 0;
+    /* margin-bottom: 20px; */
 }
 
 .header-title {
@@ -18,11 +19,13 @@ body {
     flex: 1;
     display: flex;
     align-items: center;
-    text-indent: 105px;
+    text-indent: 260px;
     color: #F9FAF8;
     font-size: 24px;
     font-weight: bold;
     font-family: sans-serif;
+    margin-bottom: 60px;
+    margin-left: 70px;
 }
 
 .header-right {
@@ -36,6 +39,8 @@ body {
     gap: 16px;
     margin-left: 250px;
     flex-shrink: 0;
+    margin-bottom: 60px;
+    margin-right: 70px;
 }
 
 /* .first-header-right {
@@ -50,30 +55,76 @@ body {
     border: 5px solid rgb(0, 157, 255);
 } */
 
-/* .part-one-left {
-    border: 5px solid red;
+
+.first-part {
+    /* border: 5px solid rgb(0, 0, 0); */
+    display: flex;
+    background: #1F2937;
+}
+
+.part-one-left {
+    /* border: 5px solid red; */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 250px;
+    margin-bottom: 80px;
 }
 .title-text {
-    border: 5px solid blue;
+    /* border: 5px solid blue; */
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    display: flex;
+    flex: 1;
+    font-family: sans-serif;
+    margin-left: 83px;
+    margin-right: 100px;
 }
 
 .text {
-    border: 5px solid green;
+    /* border: 5px solid green; */
+    font-size: 18px;
+    color: #E5E7EB;
+    font-family: sans-serif;
+    margin-left: 83px;
+    margin-right: 170px;
 }
 
 .button-part-one {
-    border: 5px solid yellow;
+    /* border: 5px solid yellow; */
+    padding: 8px 12px;
+    font-family: sans-serif;
+    margin-left: 83px;
+    margin-right: 510px;
+    background: #3882F6;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 12px;
+    border: none;
+    border-radius: 8px;
 }
 
 .part-one-right {
-    border: 5px solid red;  
+    /* border: 5px solid rgb(255, 145, 0); */
+    font-size: 18px;
+    color: #E5E7EB;
+    flex: 1;
+    display: flex;
+    margin-right: 200px;
 }
 
 .image-space {
-    border: 5px solid blue;
+    /* border: 5px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background: rgba(144, 149, 151, 0.724);
+    margin-bottom: 65px;
 }
 
-.part-two {
+/* .part-two {
     border: 5px solid red;  
 }
 
