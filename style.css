@@ -1,0 +1,96 @@
+body {
+    border: 5px solid salmon;
+    min-height: 100vh;
+}
+
+.header-logo {
+    border: 5px solid red;
+}
+
+.header-title {
+    border: 5px solid blue;
+}
+
+.header-right {
+    border: 5px solid red;
+}
+
+.first-header-right {
+    border: 5px solid blue;
+}
+
+.part-one-left {
+    border: 5px solid red;
+}
+.title-text {
+    border: 5px solid blue;
+}
+
+.text {
+    border: 5px solid green;
+}
+
+.button-part-one {
+    border: 5px solid yellow;
+}
+
+.part-one-right {
+    border: 5px solid red;  
+}
+
+.image-space {
+    border: 5px solid blue;
+}
+
+.part-two {
+    border: 5px solid red;  
+}
+
+.part-two-title {
+    border: 5px solid blue;  
+}
+
+.part-two-square {
+    border: 5px solid yellow;  
+}
+
+.part-two-square-description {
+    border: 5px solid powderblue;  
+}
+
+.part-three {
+    border: 5px solid red;  
+}
+
+.part-three-text {
+    border: 5px solid blue;  
+}
+
+.part-three-author-name {
+    border: 5px solid yellow;  
+}
+
+.footer {
+    border: 5px solid red;  
+}
+
+.part-four-text {
+    border: 5px solid blue;
+}
+
+.part-four-subtext {
+    border: 5px solid yellow;
+}
+
+.part-four-button {
+    border: 5px solid powderblue;  
+}
+
+.part-five {
+    border: 5px solid red;  
+}
+
+.copyright {
+    border: 5px solid blue;  
+
+}
